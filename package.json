@@ -1,6 +1,6 @@
 {
   "name": "alfred-uitmuntend",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "German/Dutch Dictionary (Alfred Workflow)",
   "main": "main.js",
   "author": "Felix Fischer <kontakt@felixfischer.com>",
@@ -13,7 +13,8 @@
     "url": "git://github.com/felixfischer/alfred-uitmuntend.git"
   },
   "scripts": {
-    "test": "node index.js nl wissen"
+    "test": "node index.js nl wissen",
+    "postinstall": "./install.sh"
   },
   "license": "MIT",
   "dependencies": {
