@@ -1,11 +1,12 @@
-# uitmuntend.alfredworkflow
+# Alfred Workflow for uitmuntend.de
 
-Alfred 2.0 Workflow for accessing the German/Dutch dictionary of uitmuntend.de.
+Alfred 2.0 Workflow for accessing the German/Dutch dictionary 
+[uitmuntend.de](http://www.uitmuntend.de/).
 
 ## Requirements
 
-- Alfred 2.0
-- node.js
+- [Alfred 2.0](http://www.alfredapp.com/)
+- [node.js](http://nodejs.org/)
 
 ## Installation
 
@@ -17,6 +18,10 @@ Alfred 2.0 Workflow for accessing the German/Dutch dictionary of uitmuntend.de.
   example: `nl gehen`
 - use keyword `de` in Alfred to find german translations of dutch words  
   example: `de gaan`
+
+## License
+
+MIT
 
 ## Disclaimer
 
