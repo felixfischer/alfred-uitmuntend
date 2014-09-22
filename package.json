@@ -1,6 +1,6 @@
 {
   "name": "alfred-uitmuntend",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "German/Dutch Dictionary (Alfred Workflow)",
   "main": "main.js",
   "author": "Felix Fischer <kontakt@felixfischer.com>",
