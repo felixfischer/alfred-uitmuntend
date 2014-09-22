@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<items>{{#translations}}
+  <item>
+    <title arg="{{original}}" type="file">{{original}}</title>
+    <subtitle>{{translation}}</subtitle>
+  </item>{{/translations}}
+</items>

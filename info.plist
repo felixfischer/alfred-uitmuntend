@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.felixfischer.alfred-uitmuntend</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>A46833F9-8569-498C-AA4F-751BB0CBAB52</key>
+		<array/>
+		<key>AC36BBDF-C7FB-45EA-91DA-2E3FFA933308</key>
+		<array/>
+	</dict>
+	<key>createdby</key>
+	<string>Felix Fischer</string>
+	<key>description</key>
+	<string>uitmuntend.de Woordenboek</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>German/Dutch Dictionary</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>nl</string>
+				<key>runningsubtext</key>
+				<string>Bitte warten</string>
+				<key>script</key>
+				<string>/usr/local/bin/node index.js nl {query}</string>
+				<key>subtext</key>
+				<string>uitmuntend.de Wörterbuch DE-NL</string>
+				<key>title</key>
+				<string>auf Niederländisch...</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>A46833F9-8569-498C-AA4F-751BB0CBAB52</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>de</string>
+				<key>runningsubtext</key>
+				<string>Bitte warten</string>
+				<key>script</key>
+				<string>/usr/local/bin/node index.js de {query}</string>
+				<key>subtext</key>
+				<string>uitmuntend.de Wörterbuch NL-DE</string>
+				<key>title</key>
+				<string>auf Deutsch...</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>AC36BBDF-C7FB-45EA-91DA-2E3FFA933308</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Requires the node.js executable to be present at /usr/local/bin/node.</string>
+	<key>uidata</key>
+	<dict>
+		<key>A46833F9-8569-498C-AA4F-751BB0CBAB52</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>AC36BBDF-C7FB-45EA-91DA-2E3FFA933308</key>
+		<dict>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>felixfischer.com</string>
+</dict>
+</plist>
