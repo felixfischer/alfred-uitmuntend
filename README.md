@@ -14,10 +14,14 @@ Alfred 2.0 Workflow for accessing the German/Dutch dictionary
 
 ## Usage
 
-- use keyword `nl` in Alfred to find dutch translations of german words  
-  example: `nl gehen`
-- use keyword `de` in Alfred to find german translations of dutch words  
-  example: `de gaan`
+- use keyword `nl` or `de` in Alfred followed by the word you want to look up in
+uitmuntend.de
+- examples:
+
+```
+nl gehen
+de gaan
+```
 
 ## License
 
