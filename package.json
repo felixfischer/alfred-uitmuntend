@@ -1,6 +1,6 @@
 {
   "name": "alfred-uitmuntend",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "German/Dutch Dictionary (Alfred Workflow)",
   "author": "Felix Fischer <kontakt@felixfischer.com>",
   "bugs": {
@@ -17,6 +17,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "unorm": "latest",
     "uitmuntend": "latest",
     "handlebars": "latest"
   }

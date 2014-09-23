@@ -1,13 +1,14 @@
 "use strict";
 
 var uitmuntend = require('uitmuntend'),
+    unorm = require('unorm'),
     fs = require('fs'),
     handlebars = require('handlebars');
 
 
 var main = function() {
   if (typeof process.argv[2] == "string") {
-    uitmuntend.query(process.argv[2], output);
+    uitmuntend.query(unorm.nfc(process.argv[2]), output);
   } else {
     throw "error: no valid query string supplied";
   }
