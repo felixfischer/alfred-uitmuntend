@@ -1,8 +1,7 @@
 {
   "name": "alfred-uitmuntend",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "German/Dutch Dictionary (Alfred Workflow)",
-  "main": "main.js",
   "author": "Felix Fischer <kontakt@felixfischer.com>",
   "bugs": {
     "mail": "kontakt@felixfischer.com",
@@ -18,10 +17,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "request": "latest",
-    "cheerio": "latest",
-    "handlebars": "latest",
-    "unorm": "latest",
-    "iconv-lite": "latest"
+    "uitmuntend": "latest",
+    "handlebars": "latest"
   }
 }
