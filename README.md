@@ -10,7 +10,9 @@ Alfred 2.0 Workflow for accessing the German/Dutch dictionary
 
 ## Installation
 
-- install the workflow by running `npm install` in the repository folder
+- clone this repository
+- run `npm install` in the repository folder
+- after the install script has run you can delete the repo folder
 
 ## Usage
 
