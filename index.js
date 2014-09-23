@@ -4,12 +4,14 @@ var request = require('request'),
     cheerio = require('cheerio'),
     fs = require('fs'),
     handlebars = require('handlebars'),
+    unorm = require('unorm'),
     iconv = require('iconv-lite');
 
 var endpoint = 'http://www.uitmuntend.de/search.html?search=';
 
 var fetch = function(word) {
-  var reqUrl = endpoint + escape(word);
+  // re-normalize search string (re-compose decomposed characters) and escape
+  var reqUrl = endpoint + escape(unorm.nfc(word));
   var options = {'uri': reqUrl, 'encoding': null};
   request(options, function (error, response, body) {
     if (!error && response.statusCode == 200) {

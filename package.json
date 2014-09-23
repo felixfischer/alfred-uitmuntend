@@ -21,6 +21,7 @@
     "request": "latest",
     "cheerio": "latest",
     "handlebars": "latest",
+    "unorm": "latest",
     "iconv-lite": "latest"
   }
 }
