@@ -7,8 +7,10 @@ var uitmuntend = require('uitmuntend'),
 
 
 var main = function() {
-  if (typeof process.argv[2] == "string") {
-    uitmuntend.query(unorm.nfc(process.argv[2]), output);
+  var word = process.argv[2];
+  if (typeof word == "string") {
+    word = unorm.nfc(process.argv[2]);
+    uitmuntend.query(word, output);
   } else {
     throw "error: no valid query string supplied";
   }
