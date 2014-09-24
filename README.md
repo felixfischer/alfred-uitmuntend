@@ -26,16 +26,21 @@ the installer package can be removed by running `npm un -g alfred-uitmuntend`.
 
 ## Usage
 
-- use keyword `nl` or `de` in Alfred followed by the word you want to look up in
-uitmuntend.de:
-  - `nl gehen`
-  - `de gaan`
+In Alfred use the keywords **nl** and **de** followed by the word you want to
+look up in the dictionary. Examples:
+
+- `nl gehen` --> get dutch translations of german *gehen*
+- `de lopen` --> get german translations of dutch *lopen*
+
+## Contribute
+
+Feel free to submit a pull request or send me an email if you have an idea.
 
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Felix Fischer
+Copyright (c) 2014 Felix Fischer <kontakt@felixfischer.com> (felixfischer.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
