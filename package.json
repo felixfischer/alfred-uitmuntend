@@ -12,7 +12,7 @@
     "url": "git://github.com/felixfischer/alfred-uitmuntend.git"
   },
   "scripts": {
-    "test": "node index.js nachschlagen | grep opzoeken",
+    "test": "node test.js",
     "postinstall": "./install.sh"
   },
   "os": "darwin",
@@ -21,5 +21,8 @@
     "unorm": "latest",
     "uitmuntend": "latest",
     "handlebars": "latest"
+  },
+  "devDependencies": {
+    "libxmljs": "^0.11.1"
   }
 }
