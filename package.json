@@ -23,6 +23,6 @@
     "handlebars": "latest"
   },
   "devDependencies": {
-    "libxmljs": "^0.11.1"
+    "libxmljs": "latest"
   }
 }
