@@ -15,6 +15,7 @@
     "test": "node index.js sägen",
     "postinstall": "./install.sh"
   },
+  "os": "darwin",
   "license": "MIT",
   "dependencies": {
     "unorm": "latest",

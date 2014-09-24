@@ -10,9 +10,7 @@ Alfred 2.0 Workflow for accessing the German/Dutch dictionary
 
 ## Installation
 
-- clone this repository
-- run `npm install` in the repository folder
-- after the install script has run you can delete the repo folder
+- run `npm install -g alfred-uitmuntend` in a terminal window
 
 ## Usage
 
