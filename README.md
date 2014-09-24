@@ -10,11 +10,19 @@ German/Dutch dictionary via the Alfred command bar.
 - [Alfred 2.0](http://www.alfredapp.com/)
   (OS X productivity app)
 - [node.js](http://nodejs.org/)
-  ([download installer](http://nodejs.org/download/) or `brew install node`)
+  ([download installer](http://nodejs.org/download/)
+  or use homebrew: `brew install node`)
 
 ## Installation
 
-- run `npm install -g alfred-uitmuntend` in a terminal window
+Make sure you have node.js installed and run this command in a terminal:
+
+```
+npm install -g alfred-uitmuntend
+```
+
+Alfred will pop open and ask to complete the installation. After that is done
+the installer package can be removed by running `npm un -g alfred-uitmuntend`.
 
 ## Usage
 
