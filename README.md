@@ -1,7 +1,8 @@
 # Alfred Workflow for uitmuntend.de
 
-Workflow for accessing the [uitmuntend.de](http://www.uitmuntend.de/)
-German/Dutch dictionary via the Alfred command bar.
+[![Build Status via Travis CI](https://api.travis-ci.org/felixfischer/alfred-uitmuntend.svg?branch=master)](https://travis-ci.org/felixfischer/alfred-uitmuntend)
+
+Quickly access the German/Dutch dictionary of [uitmuntend.de](http://www.uitmuntend.de/) via the Alfred 2.0 command bar.
 
 ![Screenshot](https://github.com/felixfischer/alfred-uitmuntend/blob/master/screenshot.png?raw=true)
 
