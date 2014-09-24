@@ -12,7 +12,7 @@
     "url": "git://github.com/felixfischer/alfred-uitmuntend.git"
   },
   "scripts": {
-    "test": "node index.js sägen",
+    "test": "node index.js nachschlagen | grep opzoeken",
     "postinstall": "./install.sh"
   },
   "os": "darwin",
