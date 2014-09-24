@@ -17,6 +17,12 @@ var main = function() {
 }
 
 var output = function(data) {
+  if (typeof data.translations[0] === 'undefined') {
+    data = {translations: {
+      original: 'geen resultaten',
+      translation: 'keine Suchergebnisse'
+    }}
+  }
   fs.readFile('feedback.tpl.xml', 'utf8', function(err, source) {
     if (err) {
       throw err;
