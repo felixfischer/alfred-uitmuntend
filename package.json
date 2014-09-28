@@ -31,8 +31,5 @@
     "unorm": "latest",
     "uitmuntend": "latest",
     "handlebars": "latest"
-  },
-  "devDependencies": {
-    "libxmljs": "latest"
   }
 }
