@@ -35,7 +35,7 @@
 				<key>runningsubtext</key>
 				<string>Bitte warten</string>
 				<key>script</key>
-				<string>/usr/local/bin/node index.js {query}</string>
+				<string>/usr/local/bin/node index.js "{query}"</string>
 				<key>subtext</key>
 				<string>uitmuntend.de Wörterbuch DE-NL</string>
 				<key>title</key>
@@ -64,7 +64,7 @@
 				<key>runningsubtext</key>
 				<string>Bitte warten</string>
 				<key>script</key>
-				<string>/usr/local/bin/node index.js {query}</string>
+				<string>/usr/local/bin/node index.js "{query}"</string>
 				<key>subtext</key>
 				<string>uitmuntend.de Wörterbuch NL-DE</string>
 				<key>title</key>
